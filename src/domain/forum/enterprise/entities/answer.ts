@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/adjacent-overload-signatures */
-import { Entity } from '@/core/entitios/entity'
-import { UniqueEntityID } from '@/core/entitios/unique-entity-id'
+import { Entity } from '@/core/entities/entity'
+import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { Optional } from '@/core/types/optional'
 
 interface AnswerProps {
