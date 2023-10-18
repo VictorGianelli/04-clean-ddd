@@ -8,6 +8,7 @@ let sut: CreateQuestionUseCase
 describe('Create Question', () => {
   beforeEach(() => {
     inMemoryQuestionsRepository = new InMemoryQuestionsRepository()
+    // sut = system under test
     sut = new CreateQuestionUseCase(inMemoryQuestionsRepository)
   })
 

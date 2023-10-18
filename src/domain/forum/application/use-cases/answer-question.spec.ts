@@ -7,6 +7,7 @@ let sut: AnswerQuestionUseCase
 describe('Create Answer', () => {
   beforeEach(() => {
     inMemoryAnswersRepository = new InMemoryAnswersRepository()
+    // sut = system under test
     sut = new AnswerQuestionUseCase(inMemoryAnswersRepository)
   })
 
